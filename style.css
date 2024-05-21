@@ -1,0 +1,110 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #333d57; /* Dark background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header Styling */
+header {
+    background-color: #15498c; /* Main color */
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #ffda79; /* Complementary color for hover effect */
+}
+
+/* Main Content Styling */
+main {
+    padding-top: 4rem; /* Space for fixed header */
+    margin: 2rem;
+}
+
+section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background-color: #e6f3ff; /* Light variation of main color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    color: #15498c;
+    margin-bottom: 1rem;
+}
+
+section p, section ol {
+    line-height: 1.6;
+}
+
+section ol {
+    padding-left: 1.5rem;
+}
+
+section ol ul {
+    padding-left: 1.5rem;
+}
+
+/* Video Styling */
+video {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #15498c; /* Border color to match the theme */
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Photo Gallery Styling */
+#photos img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #15498c; /* Border color to match the theme */
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
